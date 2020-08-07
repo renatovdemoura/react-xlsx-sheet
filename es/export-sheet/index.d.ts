@@ -15,6 +15,7 @@ export default class ExportSheet extends React.PureComponent<Props, any> {
     fileName: string;
     fileDate: string;
     tableElement?: HTMLTableElement;
+    xlsx: any;
   };
   render(): JSX.Element;
 }
